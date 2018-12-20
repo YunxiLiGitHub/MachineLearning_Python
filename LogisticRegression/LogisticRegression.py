@@ -8,7 +8,7 @@ font = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=14)    # 解决
 
 
 def LogisticRegression():
-    data = loadtxtAndcsv_data("data2.txt", ",", np.float64) 
+    data = loadtxtAndcsv_data("data.txt", ",", np.float64) 
     X = data[:,0:-1]
     y = data[:,-1]
     
